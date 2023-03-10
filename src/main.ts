@@ -1,5 +1,5 @@
 import "./style.css";
-import { marked } from "marked";
+// import { marked } from "marked";
 
 fetch("/index.md").then((res) => {
   res.text().then((text) => {
